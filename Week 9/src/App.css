@@ -1,0 +1,104 @@
+:root { 
+	--color1: #FFF8D4; 
+  --color2: #A3B087;
+  --color3: #435663;
+  --color4: #313647;
+}
+
+* {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.App, .container, .title, .content{
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+    padding: 10px;
+    background-color: var(--color1);
+}
+
+.App {
+    margin-top: 50px;
+    background-color: var(--color3);
+    color: var(--color2);
+    box-shadow: var(--color2);
+}
+.container {
+    background-color: var(--color1);
+}
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color4);
+    background-color: var(--color2);
+    box-shadow: 5px 5px;
+}
+
+.content {
+    color: var(--color3);
+    background-color: var(--color2);
+    box-shadow: 5px 5px;
+}
+
+.popup {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+    padding: 10px;
+    background-color: var(--color3);
+}
+
+.popupOff {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+    padding: 10px;
+    background-color: var(--color3);
+    display: none;
+}
+
+.imageBox {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+    padding: 10px;
+    background-color: var(--color1);
+    display: grid;
+}
+
+.imageBox h1{
+    text-align: center;
+    color: var(--color1);
+    background-color: var(--color3);
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+}
+.imageBox img {
+    height: 400px;
+    width: 600px;
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+}
+
+.imageBox button {
+    text-align: center;
+    color: var(--color1);
+    background-color: var(--color3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 7px;
+    height: 30px;
+}
