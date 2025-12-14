@@ -1,0 +1,71 @@
+:root { 
+	--color1: #d9dad7; 
+    --color2: #c24d2c;
+    --color3: #3e4a61;
+    --color4: #1a2639;
+}
+	
+.App {
+    margin: 5% 23%; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--color3);
+    padding: 20px;
+    width: 50%;
+    background-color: var(--color1);
+    display: inline-block
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: var(--color3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title h2 {
+    color: var(--color2);
+    font-size: 40px;
+    margin: 15px auto;
+}
+
+#num1, #num2 {
+    width: 20%;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+#operator {
+    width: 20%;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+#button {
+    width: 10%;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+#result {
+    font-weight: old;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: var(--color3);
+    width: 20%;
+    height: 28px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 5px;
+}
