@@ -1,0 +1,125 @@
+:root {
+    --color1: #d9dad7;
+    --color2: #c24d2c;
+    --color3: #3e4a61;
+    --color4: #1a2639;
+}
+
+body {
+    max-width: 50%;
+    margin: auto;
+}
+
+.widget {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 20px 20%;
+    padding: 15px;
+    background-color: var(--color1);
+    box-shadow: 10px 10px;
+    margin: 40px auto;
+}
+
+.title,
+.content,
+.weather,
+.weather_img,
+.selection {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.title {
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 10px;
+    padding: 15px; 
+    box-shadow: 10px 10px;
+}
+
+.title, h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+  border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    margin: 10px;
+    padding: 15px; 
+    padding: 5px;
+    box-shadow: 10px 10px;
+}
+
+.weather {
+  border-width: 3px;
+    margin: 10px;
+    padding: 5px;
+    border-color: transparent;
+}
+
+.weather_img {
+    height: 80px;
+    width: 80px;
+    border-style: solid;
+    border-color: var(--color3);
+    border-width: 3px;
+    border-radius: 90px;
+    background-color: var(--color2);
+    box-shadow: 10px 10px;
+}
+
+.weather_img,
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.row {
+    display: flex;
+}
+
+.selection {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: var(--color2);
+    box-shadow: 10px 10px;
+}
+
+.emoji {
+    width: 33%;
+}
+
+.emoji,
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.title h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    border-radius: 50%;
+    align-self: center;
+    border: none;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
