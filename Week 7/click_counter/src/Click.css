@@ -1,0 +1,56 @@
+body {
+  max-width: 70%;
+  margin: auto;
+}
+
+:root { 
+	--color1: #d9dad7; 
+    --color2: #c24d2c;
+    --color3: #3e4a61;
+    --color4: #1a2639;
+}
+	
+.App {
+    margin: 10% 23%; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--color3);
+    padding: 20px;
+    width: 50%;
+    background-color: var(--color1);
+    display: inline-block
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: var(--color3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title #title2 {
+    display: inline-block;
+}
+
+.title h3 {
+    color: var(--color3);
+    font-size: 40px;
+    margin: 0;
+    display: inline-block;
+}
+
+.title #count {
+    color: var(--color2);
+    margin: 15px 10px;
+}
+
+#button {
+    width: 80%;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 15px 20px;
+    text-align: center;
+}
