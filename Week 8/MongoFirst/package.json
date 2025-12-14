@@ -1,0 +1,17 @@
+{
+  "name": "mongofirst",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "startDB": "nodemon indes.js"
+  },
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1"
+  }
+}
